@@ -13,7 +13,6 @@ def remove_dups(ll):
         else:
             seen.add(current.next.value)
             current = current.next
-
     return ll
 
 
