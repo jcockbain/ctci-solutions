@@ -12,4 +12,9 @@ def check_permutation(str1, str2):
         if counter[c] == 0:
             return False
         counter[c] -= 1
-    return True
+
+    return len([x for x in counter if counter[x] != 0]) == 0
+
+if __name__ == "__main__":
+    assert(check_permutation("abc", "cba") == True)
+    assert(check_permutation("abc", "cbd") == False)
