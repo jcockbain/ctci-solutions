@@ -32,3 +32,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_robot_in_a_grid](chapter-8/Q02_robot_in_a_grid.py)
   - [03_magic_index](chapter-8/Q03_magic_index.py)
   - [04_power_set](chapter-8/Q04_power_set.py)
+
+- [Chapter 10 - Sorting and Search](chapter-10/)
+
+  - [01_sorted_merge](chapter-10/Q01_sorted_merge.py)
