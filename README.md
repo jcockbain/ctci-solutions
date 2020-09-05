@@ -26,6 +26,12 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
   - [01_route_between_two_nodes](chapter-4/Q01_route_between_nodes.py)
 
+- [Chapter 5 - Bit Manipulation]
+
+- [Chapter 6 - Math and Logic Puzzles]
+
+- [Chapter 7 - Object-Oriented Design]
+
 - [Chapter 8 - Recursion and Dynamic Programming](chapter-8/)
 
   - [01_triple_step](chapter-8/Q01_triple_step.py)
@@ -33,6 +39,14 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_magic_index](chapter-8/Q03_magic_index.py)
   - [04_power_set](chapter-8/Q04_power_set.py)
 
+- [Chapter 9 - System Design and Scalibility]
+
 - [Chapter 10 - Sorting and Search](chapter-10/)
 
   - [01_sorted_merge](chapter-10/Q01_sorted_merge.py)
+
+- [Chapter 11 - Testing]
+
+- [Chapter 16 - Moderate]
+
+- [Chapter 17 - Hard]
