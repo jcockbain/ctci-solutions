@@ -2,7 +2,7 @@ import unittest
 from Q01_route_between_nodes import route_between_nodes
 
 
-class Test(unittest.TestCase):
+class RouteBetweenNodesTest(unittest.TestCase):
     def test_route_between_nodes(self):
         test_graph = {"a": ["b"], "b": ["c"], "c": []}
         result = route_between_nodes(test_graph, "a", "c")

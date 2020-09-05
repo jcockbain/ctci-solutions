@@ -25,6 +25,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 - [Chapter 4 - Trees and Graphs](chapter-4/)
 
   - [01_route_between_two_nodes](chapter-4/Q01_route_between_nodes.py)
+  - [02_minimal_tree](chapter-4/Q02_minimal_tree.py)
 
 - [Chapter 5 - Bit Manipulation]
 
