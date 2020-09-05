@@ -47,6 +47,14 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
 - [Chapter 11 - Testing]
 
+- [Chapter 12 - C and C++]
+
+- [Chapter 13 - Java]
+
+- [Chapter 14 - Databases]
+
+- [Chapter 15 - Threads and Locks]
+
 - [Chapter 16 - Moderate]
 
 - [Chapter 17 - Hard]
