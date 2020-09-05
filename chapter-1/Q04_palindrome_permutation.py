@@ -1,7 +1,5 @@
 def pal_perm(phrase):
-    '''function checks if a string is a permutation of a palindrome or not'''
     table = [0 for _ in range(ord('z') - ord('a') + 1)]
-    print(table)
     countodd = 0
     for c in phrase:
         x = char_number(c)
