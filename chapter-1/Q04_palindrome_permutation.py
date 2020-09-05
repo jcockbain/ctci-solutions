@@ -1,4 +1,4 @@
-def pal_perm(phrase):
+def is_palindrome_permutation(phrase):
     table = [0 for _ in range(ord('z') - ord('a') + 1)]
     countodd = 0
     for c in phrase:
