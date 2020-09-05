@@ -1,6 +1,3 @@
-import unittest
-
-
 def sorted_merge(a, b):
     bix = len(b) - 1
     aix = len(a) - len(b) - 1
@@ -14,15 +11,3 @@ def sorted_merge(a, b):
     while bix >= 0:
         a[bix] = b[bix]
         bix -= 1
-
-
-class Test(unittest.TestCase):
-    def test_sorted_merge(self):
-        a = [1, 2, None, None]
-        b = [3, 4]
-        sorted_merge(a, b)
-        self.assertEqual(a, [1, 2, 3, 4])
-
-
-if __name__ == "__main__":
-    unittest.main()
