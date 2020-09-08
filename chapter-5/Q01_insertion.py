@@ -3,7 +3,7 @@ def print_binary(n):
 
 
 def insert(N, M, i, j):
-    j_mask = -1 << j + 1
+    j_mask = ~0 << j + 1
     i_mask = 1 << i
     clear_mask = j_mask | i_mask
     N = N & clear_mask
