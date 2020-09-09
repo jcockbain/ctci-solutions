@@ -40,7 +40,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [01_triple_step](chapter-8/Q01_triple_step.py)
   - [02_robot_in_a_grid](chapter-8/Q02_robot_in_a_grid.py)
   - [03_magic_index](chapter-8/Q03_magic_index.py)
-  - [11_coins][chapter-8/Q11_coins.py]
+  - [11_coins](chapter-8/Q11_coins.py)
 
 - [Chapter 9 - System Design and Scalibility]
 
