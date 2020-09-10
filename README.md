@@ -22,6 +22,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
   - [01_three_in_one](chapter-3/Q01_three_in_one.py)
   - [02_stack_min](chapter-3/Q02_stack_min.py)
+  - [03_set_of_stacks](chapter-3/Q03_set_of_stacks.py)
 
 - [Chapter 4 - Trees and Graphs](chapter-4/)
 
