@@ -16,6 +16,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [01_remove_dups](chapter-2/Q01_remove_dups.py)
   - [02_return_kth_to_last](chapter-2/Q02_return_kth_to_last.py)
   - [03_delete_middle_node](chapter-2/Q03_delete_middle_node.py)
+  - [04_partition](chapter-2/Q04_partition.py)
 
 - [Chapter 3 - Stacks and Queues](chapter-3/)
 
