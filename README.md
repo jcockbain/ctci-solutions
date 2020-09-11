@@ -62,8 +62,10 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
 - [Chapter 15 - Threads and Locks]
 
-- [Chapter 16 - Moderate]
+- [Chapter 16 - Moderate](chapter-16/)
 
   - [02_word_frequencies](chapter_16/Q02_word_frequencies.py)
 
-- [Chapter 17 - Hard]
+- [Chapter 17 - Hard](chapter-17/)
+
+  - [02_shuffle](chapter-17/Q02_shuffle.py)
