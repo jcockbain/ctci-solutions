@@ -3,6 +3,9 @@ def rotated_search(arr, target):
 
 
 def search(nums, target, left, right):
+    if left > right:
+        return -1
+
     mid = (left + right) // 2
 
     if nums[mid] == target:
@@ -14,9 +17,19 @@ def search(nums, target, left, right):
         else:
             return search(nums, target, mid + 1, right)
     elif nums[mid] < nums[right]:
-        if nums[right] < target < nums[mid]:
+        if nums[mid] < target < nums[right]:
             return search(nums, target, mid + 1, right)
         else:
             return search(nums, target, left, mid)
 
-    return -1
+    else:
+        location = -1
+
+        if nums[left] == nums[mid]:
+            location = search(nums, target, mid + 1, right)
+
+        if location == -1 and nums[mid] == nums[right]:
+            location = search(nums, target, left, mid - 1)
+
+        return location
+

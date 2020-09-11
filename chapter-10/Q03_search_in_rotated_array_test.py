@@ -12,3 +12,6 @@ class RotatedSearchTest(unittest.TestCase):
 
         array3 = [5, 6, 7, 8, 1, 2, 3]
         self.assertEqual(2, rotated_search(array3, 7))
+
+        array4 = [5, 5, 5, 6, 7, 8, 1, 2, 3]
+        self.assertEqual(3, rotated_search(array4, 6))
