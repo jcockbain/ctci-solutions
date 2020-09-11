@@ -31,7 +31,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
-  - [01_insertion](chaper_5/Q1_insertion.py)
+  - [01_insertion](chaper_5/Q01_insertion.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
