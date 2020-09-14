@@ -21,12 +21,11 @@ def find_subsets(master_set, index):
     return all_subsets
 
 
-class test(unittest.TestCase):
-    def test_find_subsets(self):
-        test_set = [1, 2, 3]
-        print(test_set)
-        expected = [[], [1], [2], [3], [12], [123]]
-        self.assertEqual(find_subsets(test_set, 0), expected)
+# class test(unittest.TestCase):
+#     def test_find_subsets(self):
+#         test_set = [1, 2, 3]
+#         expected = [[], [1], [2], [3], [12], [123]]
+#         self.assertEqual(find_subsets(test_set, 0), expected)
 
 
 if __name__ == "__main__":

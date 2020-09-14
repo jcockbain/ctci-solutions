@@ -1,4 +1,5 @@
 from collections import Counter
+import unittest
 
 
 def is_permutation(str1, str2):
@@ -13,3 +14,14 @@ def is_permutation(str1, str2):
         counter[c] -= 1
 
     return len([x for x in counter if counter[x] != 0]) == 0
+
+
+class Test(unittest.TestCase):
+    def test_is_unique(self):
+        self.assertEqual(True, is_permutation("aabbd", "baabd"))
+        self.assertEqual(False, is_permutation("abcdea", "abcde"))
+        self.assertEqual(False, is_permutation("abcdefg", "acbdegi"))
+
+
+if __name__ == "__main__":
+    unittest.main()

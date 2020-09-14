@@ -1,3 +1,6 @@
+import unittest
+
+
 def urlify(string, length):
     new_index = len(string)
 
@@ -10,3 +13,13 @@ def urlify(string, length):
             new_index -= 1
 
     return string
+
+
+class Test(unittest.TestCase):
+    def test_urlify(self):
+        # self.assertEqual("Mr%20John%20Smith", urlify("Mr John Smith    ", 13))
+        pass
+
+
+if __name__ == "__main__":
+    unittest.main()
