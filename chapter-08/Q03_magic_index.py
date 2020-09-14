@@ -1,5 +1,7 @@
 import unittest
 
+# TODO : Follow up with duplicates
+
 
 def find_magic_index(arr):  # O(N)
     for i in range(0, len(arr)):
@@ -8,13 +10,13 @@ def find_magic_index(arr):  # O(N)
     return None
 
 
-def find_magic_index_search(arr):
+def find_magic_index_search(arr):  # O(log(N))
     min = 0
     max = len(arr) - 1
     return find_magic_index_2(arr, min, max)
 
 
-def find_magic_index_2(arr, min, max):  # O(log(N))
+def find_magic_index_2(arr, min, max):
     mid = int((min + max) / 2)
     if arr[mid] == mid:
         return mid
