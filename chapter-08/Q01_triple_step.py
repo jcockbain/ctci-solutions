@@ -12,7 +12,7 @@ def triple_hop(x):
 
 
 def Method2(x):
-    memo = [-1] * (x+1)
+    memo = [-1] * (x + 1)
     return triple_hop_recursive(x, memo)
 
 

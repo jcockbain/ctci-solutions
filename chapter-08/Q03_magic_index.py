@@ -24,14 +24,12 @@ def find_magic_index_2(arr, min, max):  # O(log(N))
         return find_magic_index_2(arr, min, mid - 1)
 
 
-# class Test(unittest.TestCase):
-#     def test_find_magic_index(self):
-#         self.assertEqual(test_find_magic_index([0, 1, 2, 3, 4]), 0)
-#         self.assertEqual(test_find_magic_index([1, 2, 3]), None)
-#         self.assertEqual(test_find_magic_index_search([0, 0, 1, 2, 3]), 0)
-#         self.assertEqual(test_find_magic_index_search([1, 1, 2, 3]), 1)
-#         self.assertEqual(test_find_magic_index_search([1, 1, 2, 3]), 1)
+class Test(unittest.TestCase):
+    def test_find_magic_index(self):
+        self.assertEqual(find_magic_index([0, 1, 2, 3, 4]), 0)
+        self.assertEqual(find_magic_index([1, 2, 3]), None)
+        self.assertEqual(find_magic_index_search([0, 2, 3, 4]), 0)
 
 
-# if __name__ == "__main__":
-#     unittest.main()
+if __name__ == "__main__":
+    unittest.main()

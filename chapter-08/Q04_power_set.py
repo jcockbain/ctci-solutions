@@ -12,12 +12,14 @@ def find_subsets(master_set, index):
         more_subsets = []
         for subset in all_subsets:
             new_subset = []
-            [new_subset.append(value)
-                for value in subset if value not in new_subset]
+            [new_subset.append(value) for value in subset if value not in new_subset]
             new_subset.append(item)
             more_subsets.append(new_subset)
-            [all_subsets.append(value)
-                for value in more_subsets if value not in new_subset]
+            [
+                all_subsets.append(value)
+                for value in more_subsets
+                if value not in new_subset
+            ]
     return all_subsets
 
 
