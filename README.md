@@ -36,6 +36,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
   - [01_insertion](chaper_5/Q01_insertion.py)
   - [03_flip_bit_to_win](chapter-05/Q03_flip_bit_to_win.py)
+  - [04_next_number](chapter-05/Q04_next_number.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
