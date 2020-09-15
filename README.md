@@ -54,6 +54,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [01_sorted_merge](chapter-10/Q01_sorted_merge.py)
   - [02_group_anagrams](chapter-10/Q02_group_anagrams.py)
   - [03_search_in_rotated_array](chapter-10/Q03_search_in_rotated_array.py)
+  - [04_sorted_search_no_size](chapter-10/Q04_sorted_search_no_size.py)
 
 - [Chapter 11 - Testing]
 
