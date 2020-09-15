@@ -26,7 +26,6 @@ def create_list_of_depths(root):
             next_ll_node = LinkedListNode(tree_node.val)
             ll_node.next = next_ll_node
             ll_node = ll_node.next
-
             if tree_node.left:
                 queue.append(tree_node.left)
             if tree_node.right:

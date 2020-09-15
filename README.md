@@ -30,6 +30,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [01_route_between_two_nodes](chapter-04/Q01_route_between_nodes.py)
   - [02_minimal_tree](chapter-04/Q02_minimal_tree.py)
   - [03_list_of_depths](chapter-04/Q03_list_of_depths.py)
+  - [04_check_balanced](chapter-04/Q04_check_balanced.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
