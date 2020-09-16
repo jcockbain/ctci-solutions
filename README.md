@@ -10,6 +10,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_is_permutation](chapter-01/Q02_is_permutation.py)
   - [03_URLify](chapter-01/Q03_URLify.py)
   - [04_palindrome_permutation](chapter-01/Q04_palindrome_permutation.py)
+  - [05_one_away](chapter-01/Q05_one_away.py)
 
 - [Chapter 2 - Linked Lists](chapter-02/)
 
