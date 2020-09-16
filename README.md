@@ -51,6 +51,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [01_triple_step](chapter-08/Q01_triple_step.py)
   - [02_robot_in_a_grid](chapter-08/Q02_robot_in_a_grid.py)
   - [03_magic_index](chapter-08/Q03_magic_index.py)
+  - [04_power_set](chapter-08/Q04_power_set.py)
   - [11_coins](chapter-08/Q11_coins.py)
 
 - [Chapter 9 - System Design and Scalibility]
@@ -61,6 +62,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_group_anagrams](chapter-10/Q02_group_anagrams.py)
   - [03_search_in_rotated_array](chapter-10/Q03_search_in_rotated_array.py)
   - [04_sorted_search_no_size](chapter-10/Q04_sorted_search_no_size.py)
+  - [05_sparse_search](chapter-10/Q05_sparse_search.py)
 
 - [Chapter 11 - Testing]
 
