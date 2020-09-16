@@ -1,54 +1,52 @@
-class MultiStack:
+import unittest
 
+
+class MultiStack:
     def __init__(self, stacksize):
         self.numstacks = 3
         self.array = [0] * (stacksize * self.numstacks)
         self.sizes = [0] * self.numstacks
         self.stacksize = stacksize
 
-    def Push(self, item, stacknum):
-        if self.IsFull(stacknum):
-            raise Exception('Stack is full')
+    def push(self, item, stacknum):
+        if self.isFull(stacknum):
+            raise Exception("Stack is full")
         self.sizes[stacknum] += 1
-        self.array[self.IndexOfTop(stacknum)] = item
+        self.array[self.indexOfTop(stacknum)] = item
 
-    def Pop(self, stacknum):
-        if self.IsEmpty(stacknum):
-            raise Exception('Stack is empty')
-        value = self.array[self.IndexOfTop(stacknum)]
-        self.array[self.IndexOfTop(stacknum)] = 0
+    def pop(self, stacknum):
+        if self.isEmpty(stacknum):
+            raise Exception("Stack is empty")
+        value = self.array[self.indexOfTop(stacknum)]
+        self.array[self.indexOfTop(stacknum)] = 0
         self.sizes[stacknum] -= 1
         return value
 
-    def Peek(self, stacknum):
-        if self.IsEmpty(stacknum):
-            raise Exception('Stack is empty')
-        return self.array[self.IndexOfTop(stacknum)]
+    def peek(self, stacknum):
+        if self.isEmpty(stacknum):
+            raise Exception("Stack is empty")
+        return self.array[self.indexOfTop(stacknum)]
 
-    def IsEmpty(self, stacknum):
+    def isEmpty(self, stacknum):
         return self.sizes[stacknum] == 0
 
-    def IsFull(self, stacknum):
+    def isFull(self, stacknum):
         return self.sizes[stacknum] == self.stacksize
 
-    def IndexOfTop(self, stacknum):
+    def indexOfTop(self, stacknum):
         offset = stacknum * self.stacksize
         return offset + self.sizes[stacknum] - 1
 
 
-def ThreeInOne():
-    newstack = MultiStack(4)
-    print(newstack.IsEmpty(1))
-    newstack.Push(3, 1)
-    newstack.Push(2, 2)
-    newstack.Pop(2)
-    print(newstack.Peek(1))
-    print(newstack.IsEmpty(1))
-    newstack.Push(2, 1)
-    print(newstack.Peek(1))
-    print(newstack.Pop(1))
-    print(newstack.Peek(1))
-    newstack.Push(3, 1)
-
-
-ThreeInOne()
+class Test(unittest.TestCase):
+    def test_multistack(self):
+        newstack = MultiStack(4)
+        self.assertEqual(True, newstack.isEmpty(1))
+        newstack.push(3, 1)
+        newstack.push(2, 2)
+        self.assertEqual(2, newstack.pop(2))
+        self.assertEqual(3, newstack.peek(1))
+        self.assertEqual(False, newstack.isEmpty(1))
+        newstack.push(2, 1)
+        self.assertEqual(2, newstack.peek(1))
+        self.assertEqual(2, newstack.pop(1))

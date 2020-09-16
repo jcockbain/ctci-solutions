@@ -1,57 +1,39 @@
-import sys
+import unittest
 
 
-class MultiStack:
-    def __init__(self, stacksize):
-        self.numstacks = 1
-        self.array = [0] * (stacksize * self.numstacks)
-        self.sizes = [0] * self.numstacks
-        self.stacksize = stacksize
-        self.minvals = [sys.maxsize] * (stacksize * self.numstacks)
+class MinStack:
+    def __init__(self):
+        self.stack = []
+        self.min_stack = []
 
-    def Push(self, item, stacknum):
-        if self.IsFull(stacknum):
-            raise Exception('Stack is full')
-        self.sizes[stacknum] += 1
-        if self.IsEmpty(stacknum):
-            self.minvals[self.IndexOfTop(stacknum)] = item
-        else:
-            self.minvals[self.IndexOfTop(stacknum)] = min(
-                item, self.minvals[self.IndexOfTop(stacknum) - 1])
-        self.array[self.IndexOfTop(stacknum)] = item
+    def push(self, val):
+        if val <= self.peek_min():
+            self.min_stack.append(val)
+        self.stack.append(val)
 
-    def Peek(self, stacknum):
-        if self.IsEmpty(stacknum):
-            raise Exception('Stack is empty')
-        return self.array[self.IndexOfTop(stacknum)]
+    def peek(self):
+        return self.stack[-1]
 
-    def Min(self, stacknum):
-        return self.minvals[self.IndexOfTop(stacknum)]
+    def peek_min(self):
+        if not self.min_stack:
+            return float("inf")
+        return self.min_stack[-1]
 
-    def IsEmpty(self, stacknum):
-        return self.sizes[stacknum] == 0
-
-    def IsFull(self, stacknum):
-        return self.sizes[stacknum] == self.stacksize
-
-    def IndexOfTop(self, stacknum):
-        offset = stacknum * self.stacksize
-        return offset + self.sizes[stacknum] - 1
+    def pop(self):
+        value = self.stack.pop()
+        if value == self.peek_min():
+            self.min_stack.pop()
+        return value
 
 
-def StackMin():
-    newstack = MultiStack(10)
-    newstack.Push(5, 0)
-    newstack.Push(6, 0)
-    newstack.Push(2, 0)
-    newstack.Push(7, 0)
-    newstack.Push(14, 0)
-    newstack.Push(3, 0)
-    print(newstack.Min(0))
-    newstack.Push(1, 0)
-    newstack.Push(4, 0)
-    newstack.Push(44, 0)
-    newstack.Push(2, 0)
-    print(newstack.Min(0))
+class Test(unittest.TestCase):
+    def test_min_stack(self):
+        min_stack = MinStack()
+        min_stack.push(2)
+        self.assertEqual(2, min_stack.peek())
+        self.assertEqual(2, min_stack.peek_min())
+        min_stack.push(1)
+        self.assertEqual(1, min_stack.peek_min())
+        self.assertEqual(1, min_stack.pop())
+        self.assertEqual(2, min_stack.peek_min())
 
-StackMin()
