@@ -40,6 +40,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_binary_to_string](chaper_5/Q02_binary_to_string.py)
   - [03_flip_bit_to_win](chapter-05/Q03_flip_bit_to_win.py)
   - [04_next_number](chapter-05/Q04_next_number.py)
+  - [05_debugger](chapter-05/Q05_degugger.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
