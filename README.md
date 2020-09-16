@@ -25,6 +25,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_stack_min](chapter-03/Q02_stack_min.py)
   - [03_set_of_stacks](chapter-03/Q03_set_of_stacks.py)
   - [04_queue_via_stacks](chapter-03/Q04_queue_via_stacks.py)
+  - [05_sort_stack](chapter-03/Q05_sort_stack.py)
 
 - [Chapter 4 - Trees and Graphs](chapter-04/)
 
