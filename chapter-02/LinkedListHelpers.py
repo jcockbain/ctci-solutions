@@ -1,7 +1,7 @@
 def get_list(head):
     values = []
     while head:
-        values.append(head.value)
+        values.append(head.val)
         head = head.next
     return values
 

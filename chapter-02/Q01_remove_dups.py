@@ -1,47 +1,54 @@
-from LinkedList import LinkedList
+import unittest
 
 
-def remove_dups(ll):
-    if ll.head is None:
-        return
+class Node:
+    def __init__(self, val, next):
+        self.val = val
+        self.next = next
 
-    current = ll.head
-    seen = set([current.value])
+
+def remove_dups(head):
+    if head is None:
+        return head
+
+    current = head
+    seen = set([current.val])
     while current.next:
-        if current.next.value in seen:
+        if current.next.val in seen:
             current.next = current.next.next
         else:
-            seen.add(current.next.value)
+            seen.add(current.next.val)
             current = current.next
-    return ll
+    return head
 
 
-def remove_dups_followup(ll):
-    if ll.head is None:
-        return
+def remove_dups_followup(head):
+    if head is None:
+        return head
 
-    current = ll.head
+    current = head
     while current:
         runner = current
         while runner.next:
-            if runner.next.value == current.value:
+            if runner.next.val == current.val:
                 runner.next = runner.next.next
             else:
                 runner = runner.next
         current = current.next
 
-    return ll.head
+    return head
 
 
-ll = LinkedList()
-ll.generate(100, 0, 9)
-print(ll)
-remove_dups(ll)
-print('remove dups')
-print(ll)
+class Test(unittest.TestCase):
+    def test_remove_dups(self):
+        head = Node(1, Node(2, Node(1, Node(5, None))))
+        remove_dups(head)
+        self.assertEqual(head.val, 1)
+        self.assertEqual(head.next.val, 2)
+        self.assertEqual(head.next.next.val, 5)
 
-ll.generate(100, 0, 9)
-print(ll)
-remove_dups_followup(ll)
-print('remove dups')
-print(ll)
+        head = Node(1, Node(2, Node(1, Node(5, None))))
+        remove_dups_followup(head)
+        self.assertEqual(head.val, 1)
+        self.assertEqual(head.next.val, 2)
+        self.assertEqual(head.next.next.val, 5)

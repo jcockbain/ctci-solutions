@@ -1,6 +1,11 @@
 import unittest
-from LinkedList import LinkedListNode
 from LinkedListHelpers import print_list, get_list
+
+
+class Node:
+    def __init__(self, val, next=None):
+        self.val = val
+        self.next = next
 
 
 def partition(head, partition):
@@ -10,7 +15,7 @@ def partition(head, partition):
     upperEnd = None
 
     while head:
-        if head.value < partition:
+        if head.val < partition:
             if not lowerHead:
                 lowerHead = head
                 lowerEnd = head
@@ -32,11 +37,11 @@ def partition(head, partition):
 
 class PartitionTest(unittest.TestCase):
     def test_partition(self):
-        llHead = LinkedListNode(1)
-        llHead.next = LinkedListNode(3)
-        llHead.next.next = LinkedListNode(2)
-        llHead.next.next.next = LinkedListNode(2)
-        llHead.next.next.next.next = LinkedListNode(4)
+        llHead = Node(1)
+        llHead.next = Node(3)
+        llHead.next.next = Node(2)
+        llHead.next.next.next = Node(2)
+        llHead.next.next.next.next = Node(4)
 
         expected = [1, 2, 2, 3, 4]
         self.assertEqual(expected, get_list(partition(llHead, 3)))

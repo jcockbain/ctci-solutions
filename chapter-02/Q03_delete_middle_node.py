@@ -1,15 +1,22 @@
-from LinkedList import LinkedList
+import unittest
+
+
+class Node:
+    def __init__(self, val, next):
+        self.val = val
+        self.next = next
 
 
 def delete_middle_node(node):
-    node.value = node.next.value
+    node.val = node.next.val
     node.next = node.next.next
 
-ll = LinkedList()
-ll.add_multiple([1, 2, 3, 4])
-middle_node = ll.add(5)
-ll.add_multiple([7, 8, 9])
 
-print(ll)
-delete_middle_node(middle_node)
-print(ll)
+class Unittest(unittest.TestCase):
+    def test_delete_middle_node(self):
+        end = Node(4, None)
+        middle = Node(2, end)
+        head = Node(3, middle)
+        delete_middle_node(middle)
+        self.assertEqual(4, head.next.val)
+        self.assertEqual(None, head.next.next)
