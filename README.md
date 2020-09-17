@@ -11,6 +11,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_URLify](chapter-01/Q03_URLify.py)
   - [04_palindrome_permutation](chapter-01/Q04_palindrome_permutation.py)
   - [05_one_away](chapter-01/Q05_one_away.py)
+  - [06_string_compression](chapter-01/Q06_string_compression.py)
 
 - [Chapter 2 - Linked Lists](chapter-02/)
 
@@ -19,6 +20,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_delete_middle_node](chapter-02/Q03_delete_middle_node.py)
   - [04_partition](chapter-02/Q04_partition.py)
   - [05_sum_lists](chapter-02/Q05_sum_lists.py)
+  - [06_palindrome](chapter-02/Q06_palindrome.py)
 
 - [Chapter 3 - Stacks and Queues](chapter-03/)
 
@@ -27,6 +29,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_set_of_stacks](chapter-03/Q03_set_of_stacks.py)
   - [04_queue_via_stacks](chapter-03/Q04_queue_via_stacks.py)
   - [05_sort_stack](chapter-03/Q05_sort_stack.py)
+  - [06_animal_shelter](chapter-03/Q06_animal_shelter.py)
 
 - [Chapter 4 - Trees and Graphs](chapter-04/)
 
@@ -35,6 +38,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_list_of_depths](chapter-04/Q03_list_of_depths.py)
   - [04_check_balanced](chapter-04/Q04_check_balanced.py)
   - [05_validate_BST](chapter-04/Q05_validate_bst.py)
+  - [06_successor](chapter-06/Q06_successor.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
@@ -43,6 +47,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_flip_bit_to_win](chapter-05/Q03_flip_bit_to_win.py)
   - [04_next_number](chapter-05/Q04_next_number.py)
   - [05_debugger](chapter-05/Q05_degugger.py)
+  - [06_flip_bits_to_win](chapter-05/Q06_flip_bits_to_win.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
@@ -54,6 +59,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_robot_in_a_grid](chapter-08/Q02_robot_in_a_grid.py)
   - [03_magic_index](chapter-08/Q03_magic_index.py)
   - [04_power_set](chapter-08/Q04_power_set.py)
+  - [05_recursive_multiply](chapter-08/Q05_recursive_multiply.py)
   - [11_coins](chapter-08/Q11_coins.py)
 
 - [Chapter 9 - System Design and Scalibility]
