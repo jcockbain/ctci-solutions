@@ -18,6 +18,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [02_return_kth_to_last](chapter-02/Q02_return_kth_to_last.py)
   - [03_delete_middle_node](chapter-02/Q03_delete_middle_node.py)
   - [04_partition](chapter-02/Q04_partition.py)
+  - [05_sum_lists](chapter-02/Q05_sum_lists.py)
 
 - [Chapter 3 - Stacks and Queues](chapter-03/)
 
