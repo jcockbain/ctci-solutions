@@ -60,6 +60,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_magic_index](chapter-08/Q03_magic_index.py)
   - [04_power_set](chapter-08/Q04_power_set.py)
   - [05_recursive_multiply](chapter-08/Q05_recursive_multiply.py)
+  - [06_towers_of_hanoi](chapter-08/Q06_towers_of_hanoi.py)
   - [11_coins](chapter-08/Q11_coins.py)
 
 - [Chapter 9 - System Design and Scalibility]
