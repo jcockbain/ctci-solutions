@@ -12,6 +12,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [04_palindrome_permutation](chapter-01/Q04_palindrome_permutation.py)
   - [05_one_away](chapter-01/Q05_one_away.py)
   - [06_string_compression](chapter-01/Q06_string_compression.py)
+  - [07_rotate_matrix](chapter-01/Q07_rotate_matrix.py)
 
 - [Chapter 2 - Linked Lists](chapter-02/)
 
@@ -47,11 +48,13 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_flip_bit_to_win](chapter-05/Q03_flip_bit_to_win.py)
   - [04_next_number](chapter-05/Q04_next_number.py)
   - [05_debugger](chapter-05/Q05_degugger.py)
-  - [06_flip_bits_to_win](chapter-05/Q06_flip_bits_to_win.py)
+  - [06_conversion](chapter-05/Q06_conversion.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
-- [Chapter 7 - Object-Oriented Design]
+- [Chapter 7 - Object-Oriented Design](chapter-07/)
+
+  - [01_deck_of_cards](chapter-01/Q01_deck_of_cards)
 
 - [Chapter 8 - Recursion and Dynamic Programming](chapter-08/)
 

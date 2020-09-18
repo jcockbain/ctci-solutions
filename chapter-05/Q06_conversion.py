@@ -1,7 +1,7 @@
 import unittest
 
 
-def flip_bits_to_win(n1, n2):
+def conversion(n1, n2):
     c = n1 ^ n2
     count = 0
 
@@ -13,5 +13,5 @@ def flip_bits_to_win(n1, n2):
 
 
 class Test(unittest.TestCase):
-    def test_power_of_two(self):
-        self.assertEqual(2, flip_bits_to_win(29, 15))
+    def test_conversion(self):
+        self.assertEqual(2, conversion(29, 15))
