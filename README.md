@@ -22,6 +22,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [04_partition](chapter-02/Q04_partition.py)
   - [05_sum_lists](chapter-02/Q05_sum_lists.py)
   - [06_palindrome](chapter-02/Q06_palindrome.py)
+  - [07_intersection](chapter-02/Q07_intersection.py)
 
 - [Chapter 3 - Stacks and Queues](chapter-03/)
 
@@ -40,6 +41,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [04_check_balanced](chapter-04/Q04_check_balanced.py)
   - [05_validate_BST](chapter-04/Q05_validate_bst.py)
   - [06_successor](chapter-06/Q06_successor.py)
+  - [07_valid_build_order](chapter-06/Q07_valid_build_order.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 

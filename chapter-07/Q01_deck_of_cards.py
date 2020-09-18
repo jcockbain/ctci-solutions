@@ -26,7 +26,10 @@ class Card:
         self.rank = rank
 
     def __str__(self):
-        return "{0} of {1}".format(Card.RANKS[self.rank], Card.SUITS[self.suit])
+        return "{0} of {1}".format(
+            Card.RANKS[self.rank],
+            Card.SUITS[self.suit]
+        )
 
 
 class Deck:
