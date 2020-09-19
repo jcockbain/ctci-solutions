@@ -51,6 +51,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [04_next_number](chapter-05/Q04_next_number.py)
   - [05_debugger](chapter-05/Q05_degugger.py)
   - [06_conversion](chapter-05/Q06_conversion.py)
+  - [07_pairwise_swap](chapter-05/Q07_pairwise_swap.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
@@ -66,6 +67,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [04_power_set](chapter-08/Q04_power_set.py)
   - [05_recursive_multiply](chapter-08/Q05_recursive_multiply.py)
   - [06_towers_of_hanoi](chapter-08/Q06_towers_of_hanoi.py)
+  - [07_permutations_without_dups](chapter-08/Q07_permutation_without_dups.py)
   - [11_coins](chapter-08/Q11_coins.py)
 
 - [Chapter 9 - System Design and Scalibility]
@@ -77,6 +79,8 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_search_in_rotated_array](chapter-10/Q03_search_in_rotated_array.py)
   - [04_sorted_search_no_size](chapter-10/Q04_sorted_search_no_size.py)
   - [05_sparse_search](chapter-10/Q05_sparse_search.py)
+  - [09_sorted_matrix_search](chapter-10/Q09_sorted_matrix_search.py)
+
 
 - [Chapter 11 - Testing]
 
