@@ -74,6 +74,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [07_permutations_without_dups](chapter-08/Q07_permutation_without_dups.py)
   - [08_permutations_with_dups](chapter-08/Q08_permutation_with_dups.py)
   - [11_coins](chapter-08/Q11_coins.py)
+  - [13_stack_of_boxes](chapter-08/Q13_stack_of_boxes.py)
 
 - [Chapter 9 - System Design and Scalibility]
 
