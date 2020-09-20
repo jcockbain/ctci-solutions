@@ -13,6 +13,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [05_one_away](chapter-01/Q05_one_away.py)
   - [06_string_compression](chapter-01/Q06_string_compression.py)
   - [07_rotate_matrix](chapter-01/Q07_rotate_matrix.py)
+  - [08_zero_matrix](chapter-01/Q08_zero_matrix.py)
 
 - [Chapter 2 - Linked Lists](chapter-02/)
 
@@ -23,6 +24,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [05_sum_lists](chapter-02/Q05_sum_lists.py)
   - [06_palindrome](chapter-02/Q06_palindrome.py)
   - [07_intersection](chapter-02/Q07_intersection.py)
+  - [08_loop_detection](chapter-02/Q08_loop_detection.py)
 
 - [Chapter 3 - Stacks and Queues](chapter-03/)
 
@@ -42,6 +44,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [05_validate_BST](chapter-04/Q05_validate_bst.py)
   - [06_successor](chapter-06/Q06_successor.py)
   - [07_valid_build_order](chapter-06/Q07_valid_build_order.py)
+  - [08_common_ancestors](chapter-06/Q08_common_ancestors.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
@@ -52,6 +55,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [05_debugger](chapter-05/Q05_degugger.py)
   - [06_conversion](chapter-05/Q06_conversion.py)
   - [07_pairwise_swap](chapter-05/Q07_pairwise_swap.py)
+  - [08_draw_line](chapter-05/Q08_draw_line.py)
 
 - [Chapter 6 - Math and Logic Puzzles]
 
@@ -68,6 +72,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [05_recursive_multiply](chapter-08/Q05_recursive_multiply.py)
   - [06_towers_of_hanoi](chapter-08/Q06_towers_of_hanoi.py)
   - [07_permutations_without_dups](chapter-08/Q07_permutation_without_dups.py)
+  - [08_permutations_with_dups](chapter-08/Q08_permutation_with_dups.py)
   - [11_coins](chapter-08/Q11_coins.py)
 
 - [Chapter 9 - System Design and Scalibility]
@@ -79,8 +84,10 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [03_search_in_rotated_array](chapter-10/Q03_search_in_rotated_array.py)
   - [04_sorted_search_no_size](chapter-10/Q04_sorted_search_no_size.py)
   - [05_sparse_search](chapter-10/Q05_sparse_search.py)
+  - [07_missing_int](chapter-10/Q07_missing_int.py)
+  - [08_find_duplicates](chapter-10/Q08_find_duplicates.py)
   - [09_sorted_matrix_search](chapter-10/Q09_sorted_matrix_search.py)
-
+  - [10_get_rank_from_stream](chapter-10/Q10_get_rank_from_stream.py)
 
 - [Chapter 11 - Testing]
 
