@@ -14,6 +14,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [06_string_compression](chapter-01/Q06_string_compression.py)
   - [07_rotate_matrix](chapter-01/Q07_rotate_matrix.py)
   - [08_zero_matrix](chapter-01/Q08_zero_matrix.py)
+  - [09_string_rotation](chapter-01/Q09_string_rotation.py)
 
 - [Chapter 2 - Linked Lists](chapter-02/)
 
@@ -61,7 +62,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
 - [Chapter 7 - Object-Oriented Design](chapter-07/)
 
-  - [01_deck_of_cards](chapter-01/Q01_deck_of_cards)
+  - [01_deck_of_cards](chapter-07/Q01_deck_of_cards.py)
 
 - [Chapter 8 - Recursion and Dynamic Programming](chapter-08/)
 
