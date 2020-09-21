@@ -14,9 +14,6 @@ def triple_step(n):
 
 class Test(unittest.TestCase):
     def test_triple_step(self):
+        self.assertEqual(triple_step(1), 1)
         self.assertEqual(triple_step(3), 4)
         self.assertEqual(triple_step(7), 44)
-
-
-if __name__ == "__main__":
-    unittest.main()

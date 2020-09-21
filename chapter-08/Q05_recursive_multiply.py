@@ -26,3 +26,4 @@ class Test(unittest.TestCase):
         self.assertEqual(42, recursive_multiply(6, 7))
         self.assertEqual(21, recursive_multiply(3, 7))
         self.assertEqual(100, recursive_multiply(10, 10))
+        self.assertEqual(0, recursive_multiply(10, 0))

@@ -28,3 +28,5 @@ class Test(unittest.TestCase):
         self.assertEqual(1, kth_to_last(head, 2).val)
         self.assertEqual(2, kth_to_last(head, 3).val)
         self.assertEqual(1, kth_to_last(head, 4).val)
+
+        self.assertEqual(None, kth_to_last(None, 1))

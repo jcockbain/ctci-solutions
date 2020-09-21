@@ -2,10 +2,10 @@ import unittest
 
 
 class TreeNode:
-    def __init__(self, val):
+    def __init__(self, val, left=None, right=None):
         self.val = val
-        self.left = None
-        self.right = None
+        self.left = left
+        self.right = right
 
 
 def check_balanced(root):
@@ -28,12 +28,14 @@ def check_balanced(root):
 
 class Test(unittest.TestCase):
     def test_check_balanced(self):
-        root = TreeNode(1)
-        root.left = TreeNode(4)
-        root.right = TreeNode(5)
-        self.assertTrue(check_balanced(root))
+        bal_tree = TreeNode(1, TreeNode(4), TreeNode(5))
+        self.assertTrue(check_balanced(bal_tree))
 
-        root = TreeNode(1)
-        root.left = TreeNode(4)
-        root.left.left = TreeNode(5)
-        self.assertFalse(check_balanced(root))
+        unbal_tree = TreeNode(1, TreeNode(2, TreeNode(3, TreeNode(4))))
+        self.assertFalse(check_balanced(unbal_tree))
+
+        unbal_tree = TreeNode(
+            1, None, TreeNode(2, None, TreeNode(3, None, TreeNode(4)))
+        )
+        self.assertFalse(check_balanced(unbal_tree))
+

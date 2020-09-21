@@ -37,9 +37,6 @@ class Node:
         self.edges.append(node)
         node.dependencies += 1
 
-    def get_edges(self):
-        return self.edges
-
 
 class Test(unittest.TestCase):
     def test_valid_build_order(self):
@@ -47,3 +44,8 @@ class Test(unittest.TestCase):
         dependencies = [("a", "d"), ("f", "b"), ("b", "d"), ("f", "a"), ("d", "c")]
         expected = ["e", "f", "b", "a", "d", "c"]
         self.assertEqual(expected, valid_build_order(nodes, dependencies))
+
+        invalid_dependencies = [("b", "a"), ("a", "c"), ("c", "b")]
+        with self.assertRaises(Exception) as context:
+            order = valid_build_order(nodes, invalid_dependencies)
+        self.assertTrue("No valid ordering" in str(context.exception))

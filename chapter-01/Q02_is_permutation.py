@@ -21,7 +21,3 @@ class Test(unittest.TestCase):
         self.assertEqual(True, is_permutation("aabbd", "baabd"))
         self.assertEqual(False, is_permutation("abcdea", "abcde"))
         self.assertEqual(False, is_permutation("abcdefg", "acbdegi"))
-
-
-if __name__ == "__main__":
-    unittest.main()

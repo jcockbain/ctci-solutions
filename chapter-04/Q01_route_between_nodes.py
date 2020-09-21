@@ -32,11 +32,9 @@ class RouteBetweenNodesTest(unittest.TestCase):
         result = route_between_nodes(test_graph, "a", "c")
         self.assertEqual(["a", "b", "c"], result)
 
-    def test_route_between_nodes(self):
-        test_graph = {"a": ["c"], "b": [""], "c": ["b"]}
-        result = route_between_nodes(test_graph, "a", "b")
+        test_graph_2 = {"a": ["c"], "b": [], "c": ["b"]}
+        result = route_between_nodes(test_graph_2, "a", "b")
         self.assertEqual(["a", "c", "b"], result)
-
-
-if __name__ == "__main__":
-    unittest.main()
+        with self.assertRaises(ValueError) as context:
+            result = route_between_nodes(test_graph_2, "b", "a")
+        self.assertTrue("No Valid Path" in str(context.exception))

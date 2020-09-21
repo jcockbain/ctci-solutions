@@ -1,5 +1,4 @@
 import unittest
-from LinkedListHelpers import print_list, get_list
 
 
 class Node:
@@ -44,4 +43,9 @@ class PartitionTest(unittest.TestCase):
         llHead.next.next.next.next = Node(4)
 
         expected = [1, 2, 2, 3, 4]
-        self.assertEqual(expected, get_list(partition(llHead, 3)))
+        result = partition(llHead, 3)
+        self.assertEqual(1, llHead.val)
+        self.assertEqual(2, llHead.next.val)
+        self.assertEqual(2, llHead.next.next.val)
+        self.assertEqual(3, llHead.next.next.next.val)
+        self.assertEqual(4, llHead.next.next.next.next.val)

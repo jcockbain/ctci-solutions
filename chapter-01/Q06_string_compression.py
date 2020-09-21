@@ -27,3 +27,4 @@ class Test(unittest.TestCase):
 
         self.assertEqual("abc", string_compression("abc"))
         self.assertEqual("aBCD", string_compression("aBCD"))
+        self.assertEqual("", string_compression(""))
