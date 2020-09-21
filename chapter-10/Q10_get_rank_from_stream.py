@@ -53,10 +53,16 @@ class RankNode:
 class Test(unittest.TestCase):
     def test_rank_from_stream(self):
         stream_rank = RankNode()
+        self.assertEqual(0, stream_rank.get_rank(2))
         stream_rank.track(1)
+        self.assertEqual(1, stream_rank.get_rank(2))
         stream_rank.track(2)
         stream_rank.track(2)
         stream_rank.track(3)
         stream_rank.track(4)
-        self.assertEqual(3, stream_rank.get_rank(2))
-        self.assertEqual(1, stream_rank.get_rank(1))
+        stream_rank.track(-1)
+        stream_rank.track(0)
+        self.assertEqual(6, stream_rank.get_rank(3))
+        self.assertEqual(5, stream_rank.get_rank(2))
+        self.assertEqual(1, stream_rank.get_rank(-1))
+        self.assertEqual(0, stream_rank.get_rank(-2))

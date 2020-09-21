@@ -32,8 +32,7 @@ def char_number(c):
 class palindrome_permutation_test(unittest.TestCase):
     def test_palindrome_permutation(self):
         self.assertEqual(True, is_palindrome_permutation("acbbac"))
+        self.assertEqual(True, is_palindrome_permutation("AcbBac"))
         self.assertEqual(False, is_palindrome_permutation("asdasdsa"))
-
-
-if __name__ == "__main__":
-    unittest.main()
+        # ignore invalid chars
+        self.assertEqual(True, is_palindrome_permutation("+sdasdsa"))

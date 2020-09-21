@@ -26,7 +26,6 @@ def first_common_ancestor(node_1, node_2):
                 return node_2
             parents_2[node_2] = True
             node_2 = node_2.parent
-    return None
 
 
 class Test(unittest.TestCase):

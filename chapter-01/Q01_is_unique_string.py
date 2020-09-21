@@ -21,6 +21,4 @@ class Test(unittest.TestCase):
         self.assertEqual(False, is_unique("abcdea"))
         self.assertEqual(True, is_unique("abcdefg"))
 
-
-if __name__ == "__main__":
-    unittest.main()
+        self.assertEqual(False, is_unique("".join([chr(i) for i in range(129)])))

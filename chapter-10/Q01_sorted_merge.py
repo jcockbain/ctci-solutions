@@ -22,3 +22,8 @@ class Test(unittest.TestCase):
         b = [3, 4]
         sorted_merge(a, b)
         self.assertEqual(a, [1, 2, 3, 4])
+
+        a = [3, 4, None, None]
+        b = [1, 2]
+        sorted_merge(a, b)
+        self.assertEqual(a, [1, 2, 3, 4])

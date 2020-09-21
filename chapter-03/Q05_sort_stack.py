@@ -36,6 +36,7 @@ def sort_stack(stack):
 class SetOfStacksTest(unittest.TestCase):
     def test_sort_stack(self):
         stack = Stack()
+        self.assertEqual(None, stack.peek())
         stack.push(2)
         stack.push(3)
         stack.push(1)

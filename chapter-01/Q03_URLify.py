@@ -18,7 +18,3 @@ def urlify(string, length):
 class Test(unittest.TestCase):
     def test_urlify(self):
         self.assertEqual("Mr%20John%20Smith", urlify("Mr John Smith    ", 13))
-
-
-if __name__ == "__main__":
-    unittest.main()

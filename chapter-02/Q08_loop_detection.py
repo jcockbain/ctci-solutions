@@ -44,3 +44,8 @@ class Test(unittest.TestCase):
         self.assertEqual(looped_list, detect_loop_2(looped_list))
 
         self.assertEqual(None, detect_loop(Node(7, Node(4, None))))
+        self.assertEqual(None, detect_loop_2(Node(7, Node(4, None))))
+
+        looped_list_2 = Node(1, Node(2, Node(3, looped_list)))
+        self.assertEqual(looped_list, detect_loop(looped_list))
+        self.assertEqual(looped_list, detect_loop_2(looped_list))

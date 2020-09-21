@@ -60,6 +60,13 @@ class Test(unittest.TestCase):
             ],
         )
 
+        grid = [
+            [0, 1, 0, 0, 0, 0, 1],
+            [1, 1, 1, 0, 1, 1, 0],
+            [0, 0, 1, 0, 0, 0, 0],
+            [1, 1, 0, 0, 0, 1, 0],
+        ]
+        self.assertEqual(
+            get_path(grid), [],
+        )
 
-if __name__ == "__main__":
-    unittest.main()

@@ -31,7 +31,3 @@ class Test(unittest.TestCase):
         self.assertEqual(find_magic_index([0, 1, 2, 3, 4]), 0)
         self.assertEqual(find_magic_index([1, 2, 3]), None)
         self.assertEqual(find_magic_index_search([0, 2, 3, 4]), 0)
-
-
-if __name__ == "__main__":
-    unittest.main()

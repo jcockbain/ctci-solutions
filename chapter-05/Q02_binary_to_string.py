@@ -24,3 +24,10 @@ class Test(unittest.TestCase):
     def test_binary_to_string(self):
         self.assertEqual("0.11", binary_to_string(0.75))
         self.assertEqual("0.101", binary_to_string(0.625))
+        with self.assertRaises(Exception) as context:
+            res = binary_to_string(0.123837)
+        self.assertTrue("Insufficient precision" in str(context.exception))
+        with self.assertRaises(Exception) as context:
+            res = binary_to_string(1.23837)
+        self.assertTrue("Out of bounds" in str(context.exception))
+

@@ -19,7 +19,3 @@ class test(unittest.TestCase):
         test_set = [1, 2, 3]
         expected = [[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]]
         self.assertListEqual(sorted(find_subsets(test_set)), sorted(expected))
-
-
-if __name__ == "__main__":
-    unittest.main()

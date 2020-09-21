@@ -27,6 +27,8 @@ def validate_bst(root):
 
 class Test(unittest.TestCase):
     def test_check_balanced(self):
+        self.assertTrue(True, validate_bst(None))
+
         root = TreeNode(3)
         root.left = TreeNode(2)
         root.right = TreeNode(4)

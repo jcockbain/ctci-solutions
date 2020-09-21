@@ -46,7 +46,7 @@ class Unittest(unittest.TestCase):
         shelter.enqueue(Dog("Fluffy", 15))
         shelter.enqueue(Dog("Scooby", 20))
         shelter.enqueue(Cat("Simba", 22))
-        self.assertEqual("Garfield", shelter.dequeue_cat().name)
+        self.assertEqual("Garfield", shelter.dequeue_any().name)
         self.assertEqual("Fluffy", shelter.dequeue_dog().name)
         self.assertEqual("Scooby", shelter.dequeue_any().name)
         self.assertEqual("Simba", shelter.dequeue_cat().name)

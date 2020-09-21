@@ -52,3 +52,6 @@ class Test(unittest.TestCase):
         self.assertEqual(head.val, 1)
         self.assertEqual(head.next.val, 2)
         self.assertEqual(head.next.next.val, 5)
+
+        self.assertEqual(None, remove_dups(None))
+        self.assertEqual(None, remove_dups_followup(None))

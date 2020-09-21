@@ -51,15 +51,30 @@ def binary_search(left, right, strings, target):
 class Test(unittest.TestCase):
     def test_power_of_two(self):
         self.assertEqual(
-            4, sparse_search(["at", "", "", "", "ball", "", "", "cat"], "ball")
+            3, sparse_search(["at", "", "", "ball", "", "", "", "cat"], "ball")
         )
         self.assertEqual(
-            0, sparse_search(["at", "", "", "", "ball", "", "", "cat"], "at")
+            1, sparse_search(["at", "ball", "", "", "", "", "", ""], "ball")
+        )
+        self.assertEqual(
+            0, sparse_search(["at", "", "back", "", "ball", "", "", "cat"], "at")
         )
         self.assertEqual(
             7, sparse_search(["at", "", "", "", "ball", "", "", "cat"], "cat")
         )
         self.assertEqual(
             -1, sparse_search(["at", "", "", "", "ball", "", "", "cat"], "hat")
+        )
+        self.assertEqual(
+            -1, sparse_search(["at", "", "back", "", "ball", "", "", ""], "hat")
+        )
+        self.assertEqual(
+            -1, sparse_search(["", "", "back", "", "ball", "", "", ""], "at")
+        )
+        self.assertEqual(
+            6,
+            sparse_search(
+                ["at", "bat", "cat", "gate", "mate", "pat", "sat", "yak"], "sat"
+            ),
         )
 

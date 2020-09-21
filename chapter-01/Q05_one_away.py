@@ -38,6 +38,9 @@ def one_insert_away(short, long):
 class Test(unittest.TestCase):
     def test_one_away(self):
         self.assertEqual(True, one_away("pale", "ple"))
+        self.assertEqual(True, one_away("ple", "pale"))
         self.assertEqual(True, one_away("pales", "pale"))
         self.assertEqual(True, one_away("pale", "bale"))
         self.assertEqual(False, one_away("plae", "bae"))
+        self.assertEqual(False, one_away("plae", "ploy"))
+        self.assertEqual(False, one_away("plae", "plaeyy"))
