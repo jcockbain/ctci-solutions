@@ -1,6 +1,6 @@
 # CTCI-Questions
 
-Python solutions to algorithm questions in [Cracking the Coding Interview](https://www.amazon.co.uk/Cracking-Coding-Interview-6th-Programming/dp/0984782850/ref=sr_1_1?crid=15ZAINPTRT12O&keywords=cracking+the+coding+interview&qid=1566313120&s=gateway&sprefix=cracking+the+%2Caps%2C137&sr=8-1)
+Python solutions to algorithm questions in [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/).
 
 ## Chapters
 
@@ -48,6 +48,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [08_common_ancestor](chapter-04/Q08_common_ancestor.py)
   - [09_bst_sequences](chapter-04/Q09_bst_sequences.py)
   - [10_check_subtree.py](chapter-04/Q10_check_subtree.py)
+  - [12_path_with_sum.py](chapter-04/Q12_path_with_sum.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
