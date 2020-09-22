@@ -46,6 +46,8 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [06_successor](chapter-04/Q06_successor.py)
   - [07_valid_build_order](chapter-04/Q07_valid_build_order.py)
   - [08_common_ancestor](chapter-04/Q08_common_ancestor.py)
+  - [09_bst_sequences](chapter-04/Q09_bst_sequences.py)
+  - [10_check_subtree.py](chapter-04/Q10_check_subtree.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
@@ -74,7 +76,9 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
   - [06_towers_of_hanoi](chapter-08/Q06_towers_of_hanoi.py)
   - [07_permutations_without_dups](chapter-08/Q07_permutation_without_dups.py)
   - [08_permutations_with_dups](chapter-08/Q08_permutation_with_dups.py)
+  - [10_paint_fill](chapter-08/Q10_paint_fill.py)
   - [11_coins](chapter-08/Q11_coins.py)
+  - [12_n_queens](chapter-08/Q12_n_queens.py)
   - [13_stack_of_boxes](chapter-08/Q13_stack_of_boxes.py)
 
 - [Chapter 9 - System Design and Scalibility]
@@ -83,7 +87,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](https
 
   - [01_sorted_merge](chapter-10/Q01_sorted_merge.py)
   - [02_group_anagrams](chapter-10/Q02_group_anagrams.py)
-  - [03_search_in_rotated_array](chapter-10/Q03_search_in_rotated_array.py)
+  - [03_search_in_rotated_array](chapter-10/Q03_search_255in_rotated_array.py)
   - [04_sorted_search_no_size](chapter-10/Q04_sorted_search_no_size.py)
   - [05_sparse_search](chapter-10/Q05_sparse_search.py)
   - [07_missing_int](chapter-10/Q07_missing_int.py)
