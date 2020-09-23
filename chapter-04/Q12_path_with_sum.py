@@ -8,16 +8,27 @@ class Node:
         self.right = right
 
 
-def paths_with_sum(root, target):
-    if not root:
+def pathSum(root, target_sum):
+    return pathSumRec(root, target_sum, [])
+
+
+def pathSumRec(root, target_sum, currentPath):
+    if root is None:
         return 0
-    new_target = target - root.val
-    s = 1 if new_target == 0 else 0
-    return (
-        s
-        + paths_with_sum(root.left, new_target)
-        + paths_with_sum(root.right, new_target)
-    )
+
+    currentPath.append(root.val)
+    pathCount, pathSum = 0, 0
+
+    for i in range(len(currentPath) - 1, -1, -1):
+        pathSum += currentPath[i]
+        if pathSum == target_sum:
+            pathCount += 1
+
+    pathCount += pathSumRec(root.left, target_sum, currentPath)
+    pathCount += pathSumRec(root.right, target_sum, currentPath)
+
+    currentPath.pop()
+    return pathCount
 
 
 class Test(unittest.TestCase):
@@ -26,7 +37,7 @@ class Test(unittest.TestCase):
             1,
             Node(2, Node(-1, Node(1), Node(3)), Node(3, Node(-2, Node(-1)), Node(-3))),
         )
-        self.assertEqual(4, paths_with_sum(root, 3))
+        self.assertEqual(7, pathSum(root, 3))
 
         root = Node(1, Node(2), Node(3))
-        self.assertEqual(1, paths_with_sum(root, 3))
+        self.assertEqual(2, pathSum(root, 3))
