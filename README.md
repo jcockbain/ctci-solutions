@@ -48,6 +48,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](http:
   - [08_common_ancestor](chapter-04/Q08_common_ancestor.py)
   - [09_bst_sequences](chapter-04/Q09_bst_sequences.py)
   - [10_check_subtree.py](chapter-04/Q10_check_subtree.py)
+  - [11_random_node.py](chapter-04/Q11_random_node.py)
   - [12_path_with_sum.py](chapter-04/Q12_path_with_sum.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
@@ -82,6 +83,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](http:
   - [11_coins](chapter-08/Q11_coins.py)
   - [12_n_queens](chapter-08/Q12_n_queens.py)
   - [13_stack_of_boxes](chapter-08/Q13_stack_of_boxes.py)
+  - [14_boolean_evaluation](chapter-08/Q14_boolean_evaluation.py)
 
 - [Chapter 9 - System Design and Scalibility]
 
@@ -96,6 +98,7 @@ Python solutions to algorithm questions in [Cracking the Coding Interview](http:
   - [08_find_duplicates](chapter-10/Q08_find_duplicates.py)
   - [09_sorted_matrix_search](chapter-10/Q09_sorted_matrix_search.py)
   - [10_get_rank_from_stream](chapter-10/Q10_get_rank_from_stream.py)
+  - [11_peaks_and_valleys](chapter-10/Q11_peaks_and_valleys.py)
 
 - [Chapter 11 - Testing]
 
