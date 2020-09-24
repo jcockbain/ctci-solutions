@@ -125,8 +125,13 @@ Each solution, with its tests, should be self-contained inside the one file.
 
 - [Chapter 16 - Moderate](chapter-16/)
 
+  - [01_number_swapper](chapter-16/Q02_word_frequencies.py)
   - [02_word_frequencies](chapter-16/Q02_word_frequencies.py)
+  - [03_intersection](chapter-16/Q03_intersection.py)
   - [05_factorial_zeroes](chapter-16/Q05_factorial_zeroes.py)
+  - [07_number_max](chapter-16/Q07_number_max.py)
+  - [11_diving_board](chapter-16/diving_board.py)
+  - [17_contiguous_subsequence](chapter-16/contiguous_subsequence.py)
 
 - [Chapter 17 - Hard](chapter-17/)
 
