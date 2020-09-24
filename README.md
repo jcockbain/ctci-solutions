@@ -1,8 +1,18 @@
-# CTCI-Questions
+# CTCI-solutions
 
 [![codecov](https://codecov.io/gh/jcockbain/ctci-solutions/branch/master/graph/badge.svg)](https://codecov.io/gh/jcockbain/ctci-solutions)
 
 Python solutions to algorithm questions in [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/).
+
+"TODO" comments are left where more efficient solutions are suggested in the book, or follow-up questions not yet answered.
+
+## Summary
+
+Each solution, with its tests, should be self-contained inside the one file linked.
+
+Test cases are added as I've understood the problems, and algorithms written to pass these tests.
+
+PRs and issues are welcome where something is incorrect or could be done better!
 
 ## Running The Tests
 
@@ -12,8 +22,6 @@ I run the tests with pytest.
 pytest # whole suite
 pytest {path_to_test.py} # particular file
 ```
-
-Each solution, with its tests, should be self-contained inside the one file.
 
 ## Chapters
 
