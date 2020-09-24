@@ -3,16 +3,16 @@ import unittest
 
 def is_palindrome_permutation(phrase):
     table = [0 for _ in range(ord("z") - ord("a") + 1)]
-    countodd = 0
+    count_odd = 0
     for c in phrase:
         x = char_number(c)
         if x != -1:
             table[x] += 1
             if table[x] % 2:
-                countodd += 1
+                count_odd += 1
             else:
-                countodd -= 1
-    return countodd <= 1
+                count_odd -= 1
+    return count_odd <= 1
 
 
 def char_number(c):
