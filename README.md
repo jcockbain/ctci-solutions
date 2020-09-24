@@ -60,14 +60,14 @@ Each solution, with its tests, should be self-contained inside the one file.
   - [07_valid_build_order](chapter-04/Q07_valid_build_order.py)
   - [08_common_ancestor](chapter-04/Q08_common_ancestor.py)
   - [09_bst_sequences](chapter-04/Q09_bst_sequences.py)
-  - [10_check_subtree.py](chapter-04/Q10_check_subtree.py)
-  - [11_random_node.py](chapter-04/Q11_random_node.py)
-  - [12_path_with_sum.py](chapter-04/Q12_path_with_sum.py)
+  - [10_check_subtree](chapter-04/Q10_check_subtree.py)
+  - [11_random_node](chapter-04/Q11_random_node.py)
+  - [12_path_with_sum](chapter-04/Q12_path_with_sum.py)
 
 - [Chapter 5 - Bit Manipulation](chapter-05/)
 
-  - [01_insertion](chaper_5/Q01_insertion.py)
-  - [02_binary_to_string](chaper_5/Q02_binary_to_string.py)
+  - [01_insertion](chapter_5/Q01_insertion.py)
+  - [02_binary_to_string](chapter_5/Q02_binary_to_string.py)
   - [03_flip_bit_to_win](chapter-05/Q03_flip_bit_to_win.py)
   - [04_next_number](chapter-05/Q04_next_number.py)
   - [05_debugger](chapter-05/Q05_degugger.py)
@@ -89,9 +89,9 @@ Each solution, with its tests, should be self-contained inside the one file.
   - [04_power_set](chapter-08/Q04_power_set.py)
   - [05_recursive_multiply](chapter-08/Q05_recursive_multiply.py)
   - [06_towers_of_hanoi](chapter-08/Q06_towers_of_hanoi.py)
-  - [07_permutations_without_dups](chapter-08/Q07_permutation_without_dups.py)
-  - [08_permutations_with_dups](chapter-08/Q08_permutation_with_dups.py)
-  - [09_parens](chapter-08/Q08_parens.py)
+  - [07_permutations_without_dups](chapter-08/Q07_permutations_without_dups.py)
+  - [08_permutations_with_dups](chapter-08/Q08_permutations_with_dups.py)
+  - [09_parens](chapter-08/Q09_parens.py)
   - [10_paint_fill](chapter-08/Q10_paint_fill.py)
   - [11_coins](chapter-08/Q11_coins.py)
   - [12_n_queens](chapter-08/Q12_n_queens.py)
@@ -104,7 +104,7 @@ Each solution, with its tests, should be self-contained inside the one file.
 
   - [01_sorted_merge](chapter-10/Q01_sorted_merge.py)
   - [02_group_anagrams](chapter-10/Q02_group_anagrams.py)
-  - [03_search_in_rotated_array](chapter-10/Q03_search_255in_rotated_array.py)
+  - [03_search_in_rotated_array](chapter-10/Q03_search_in_rotated_array.py)
   - [04_sorted_search_no_size](chapter-10/Q04_sorted_search_no_size.py)
   - [05_sparse_search](chapter-10/Q05_sparse_search.py)
   - [07_missing_int](chapter-10/Q07_missing_int.py)
@@ -125,8 +125,8 @@ Each solution, with its tests, should be self-contained inside the one file.
 
 - [Chapter 16 - Moderate](chapter-16/)
 
-  - [02_word_frequencies](chapter_16/Q02_word_frequencies.py)
-  - [05_factorial_zeroes](chapter_16/Q05_factorial_zeroes.py)
+  - [02_word_frequencies](chapter-16/Q02_word_frequencies.py)
+  - [05_factorial_zeroes](chapter-16/Q05_factorial_zeroes.py)
 
 - [Chapter 17 - Hard](chapter-17/)
 
