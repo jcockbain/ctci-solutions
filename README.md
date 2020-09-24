@@ -2,6 +2,17 @@
 
 Python solutions to algorithm questions in [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/).
 
+## Running The Tests
+
+I run the tests with pytest.
+
+```shell
+pytest # whole suite
+pytest {path_to_test.py} # particular file
+```
+
+Each solution, with its tests, should be self-contained inside the one file.
+
 ## Chapters
 
 - [Chapter 1 - Arrays and Strings](chapter-01/)
