@@ -16,4 +16,4 @@ class Test(unittest.TestCase):
     def test_permutation(self):
         s = "for"
         expected = ["for", "fro", "orf", "ofr", "rof", "rfo"]
-        self.assertEqual(sorted(expected), sorted(permutations_without_dups(s)))
+        self.assertCountEqual(expected, permutations_without_dups(s))
