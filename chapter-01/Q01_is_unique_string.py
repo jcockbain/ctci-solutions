@@ -21,4 +21,6 @@ class Test(unittest.TestCase):
         self.assertEqual(False, is_unique("abcdea"))
         self.assertEqual(True, is_unique("abcdefg"))
 
-        self.assertEqual(False, is_unique("".join([chr(i) for i in range(129)])))
+        self.assertEqual(
+            False, is_unique("".join([chr(i) for i in range(1, 129)] + ["a"]))
+        )
