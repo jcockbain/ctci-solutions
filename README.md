@@ -1,5 +1,7 @@
 # CTCI-Questions
 
+[![codecov](https://codecov.io/gh/jcockbain/ctci-solutions/branch/master/graph/badge.svg)](https://codecov.io/gh/jcockbain/ctci-solutions)
+
 Python solutions to algorithm questions in [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/).
 
 ## Running The Tests
