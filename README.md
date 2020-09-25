@@ -140,6 +140,8 @@ pytest {path_to_test.py} # particular file
   - [07_number_max](chapter-16/Q07_number_max.py)
   - [11_diving_board](chapter-16/Q11_diving_board.py)
   - [17_contiguous_sequence](chapter-16/Q17_contiguous_sequence.py)
+  - [20_T9](chapter-16/Q20_T9.py)
+  - [23_rand7_from_rand5](chapter-16/Q23_rand7_from_rand5.py)
 
 - [Chapter 17 - Hard](chapter-17/)
 
