@@ -150,4 +150,6 @@ pytest {path_to_test.py} # particular file
 
 - [Chapter 17 - Hard](chapter-17/)
 
+  - [01_add_without_plus](chapter-17/Q01_add_without_plus.py)
   - [02_shuffle](chapter-17/Q02_shuffle.py)
+  - [14_smallest_k](chapter-17/Q14_smallest_k.py)
