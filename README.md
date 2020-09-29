@@ -154,4 +154,5 @@ pytest {path_to_test.py} # particular file
   - [02_shuffle](chapter-17/Q02_shuffle.py)
   - [07_baby_names](chapter-17/Q07_baby_names.py)
   - [08_circus_tower](chapter-17/Q08_circus_tower.py)
+  - [11_word_distance](chapter-17/Q11_word_distance.py)
   - [14_smallest_k](chapter-17/Q14_smallest_k.py)
