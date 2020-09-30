@@ -26,3 +26,7 @@ class Test(unittest.TestCase):
         self.assertEqual(6, rand_7(lambda: 1))
         self.assertEqual(5, rand_7(lambda: 2))
         self.assertEqual(4, rand_7(lambda: 3))
+
+        for _ in range(20):
+            self.assertTrue(0 <= rand_7(rand_5) <= 6)
+        self.assertTrue(0 <= rand_5() <= 4)

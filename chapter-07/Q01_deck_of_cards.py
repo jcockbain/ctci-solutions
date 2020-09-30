@@ -26,10 +26,7 @@ class Card:
         self.rank = rank
 
     def __str__(self):
-        return "{0} of {1}".format(
-            Card.RANKS[self.rank],
-            Card.SUITS[self.suit]
-        )
+        return "{0} of {1}".format(Card.RANKS[self.rank], Card.SUITS[self.suit])
 
 
 class Deck:
@@ -59,5 +56,10 @@ class BlackjackHand(Deck):
 
 class Test(unittest.TestCase):
     def test_deck_of_cards(self):
-        deck = BlackjackHand([Card(2, 5), Card(2, 11)])
-        self.assertEqual(15, deck.value())
+        deck = BlackjackHand([Card(1, 3), Card(2, 5), Card(2, 11)])
+        self.assertEqual(18, deck.value())
+        deck.show()
+        drawn = deck.draw()
+        self.assertEqual(2, drawn.suit)
+        self.assertEqual(11, drawn.rank)
+        deck.shuffle()
