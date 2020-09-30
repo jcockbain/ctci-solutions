@@ -147,7 +147,10 @@ pytest {path_to_test.py} # particular file
   - [12_xml_encoding](chapter-16/Q12_xml_encoding.py)
   - [13_bisect_squares](chapter-16/Q13_bisect_squares.py)
   - [14_best_line](chapter-16/Q14_best_line.py)
+  - [15_master_mind](chapter-16/Q14_best_line.py)
+  - [16_sub_sort](chapter-16/Q14_best_line.py)
   - [17_contiguous_sequence](chapter-16/Q17_contiguous_sequence.py)
+  - [18_pattern_matching](chapter-16/Q18_pattern_matching.py)
   - [20_T9](chapter-16/Q20_T9.py)
   - [23_rand7_from_rand5](chapter-16/Q23_rand7_from_rand5.py)
 
