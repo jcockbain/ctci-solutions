@@ -151,13 +151,17 @@ pytest {path_to_test.py} # particular file
   - [16_sub_sort](chapter-16/Q14_best_line.py)
   - [17_contiguous_sequence](chapter-16/Q17_contiguous_sequence.py)
   - [18_pattern_matching](chapter-16/Q18_pattern_matching.py)
+  - [19_pond_size](chapter-16/Q19_pond_size.py)
   - [20_T9](chapter-16/Q20_T9.py)
+  - [21_sum_swap](chapter-16/Q21_sum_swap.py)
+  - [22_langstons_ant](chapter-16/Q22_langstons_ant.py)
   - [23_rand7_from_rand5](chapter-16/Q23_rand7_from_rand5.py)
 
 - [Chapter 17 - Hard](chapter-17/)
 
   - [01_add_without_plus](chapter-17/Q01_add_without_plus.py)
   - [02_shuffle](chapter-17/Q02_shuffle.py)
+  - [04_missing_number](chapter-17/Q04_missing_number.py)
   - [07_baby_names](chapter-17/Q07_baby_names.py)
   - [08_circus_tower](chapter-17/Q08_circus_tower.py)
   - [11_word_distance](chapter-17/Q11_word_distance.py)
