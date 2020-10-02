@@ -156,6 +156,9 @@ pytest {path_to_test.py} # particular file
   - [21_sum_swap](chapter-16/Q21_sum_swap.py)
   - [22_langstons_ant](chapter-16/Q22_langstons_ant.py)
   - [23_rand7_from_rand5](chapter-16/Q23_rand7_from_rand5.py)
+  - [24_pairs_with_sum](chapter-16/Q24_pairs_with_sum.py)
+  - [25_LRU_cache](chapter-16/Q25_LRU_cache.py)
+  - [26_calculator](chapter-16/Q26_calculator.py)
 
 - [Chapter 17 - Hard](chapter-17/)
 
