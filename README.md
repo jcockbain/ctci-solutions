@@ -166,6 +166,7 @@ pytest {path_to_test.py} # particular file
   - [02_shuffle](chapter-17/Q02_shuffle.py)
   - [04_missing_number](chapter-17/Q04_missing_number.py)
   - [05_letters_and_numbers](chapter-17/Q05_letters_and_numbers.py)
+  - [06_number_of_twos](chapter-17/Q06_number_of_twos.py)
   - [07_baby_names](chapter-17/Q07_baby_names.py)
   - [08_circus_tower](chapter-17/Q08_circus_tower.py)
   - [11_word_distance](chapter-17/Q11_word_distance.py)
