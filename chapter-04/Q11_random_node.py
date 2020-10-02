@@ -8,10 +8,6 @@ class RandomTreeNode:
         self.left = left
         self.right = right
         self.nodes_below = 1
-        if self.left:
-            self.nodes_below += 1
-        if self.right:
-            self.nodes_below += 1
 
     def predecessor(self):
         node = self.left
@@ -104,8 +100,11 @@ class Test(unittest.TestCase):
         root = RandomTreeNode(5)
         root.insert(10)
         root.insert(3)
+        self.assertEqual(3, root.predecessor())
+
         root.insert(1)
         root.insert(4)
+        self.assertEqual(4, root.predecessor())
         self.assertEqual(10, root.right.val)
         self.assertEqual(3, root.left.val)
         self.assertEqual(1, root.left.left.val)
@@ -130,3 +129,7 @@ class Test(unittest.TestCase):
         for _ in range(10):
             node = root.get_random_node()
             self.assertEqual(True, node.val in values)
+
+        for val in values:
+            root.delete(val)
+
