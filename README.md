@@ -176,3 +176,5 @@ pytest {path_to_test.py} # particular file
   - [13_re_space](chapter-17/Q13_re_space.py)
   - [14_smallest_k](chapter-17/Q14_smallest_k.py)
   - [15_longest_word](chapter-17/Q15_longest_word.py)
+  - [16_the_masseuse](chapter-17/Q16_the_masseuse.py)
+  - [17_multi_search](chapter-17/Q17_multi_search.py)
