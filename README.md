@@ -178,3 +178,5 @@ pytest {path_to_test.py} # particular file
   - [15_longest_word](chapter-17/Q15_longest_word.py)
   - [16_the_masseuse](chapter-17/Q16_the_masseuse.py)
   - [17_multi_search](chapter-17/Q17_multi_search.py)
+  - [18_shortest_subsequence](chapter-17/Q18_shortest_subsequence.py)
+  - [19_missing_two](chapter-17/Q19_missing_two.py)
