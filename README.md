@@ -179,4 +179,5 @@ pytest {path_to_test.py} # particular file
   - [16_the_masseuse](chapter-17/Q16_the_masseuse.py)
   - [17_multi_search](chapter-17/Q17_multi_search.py)
   - [18_shortest_subsequence](chapter-17/Q18_shortest_subsequence.py)
-  - [19_missing_two](chapter-17/Q19_missing_two.py)
+  - [20_continuous_median](chapter-17/Q20_continuous_median.py)
+  - [21_volume_of_histogram](chapter-17/Q21_volume_of_histogram.py)
