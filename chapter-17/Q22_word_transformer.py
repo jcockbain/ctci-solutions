@@ -1,8 +1,6 @@
 from collections import defaultdict, deque
 import unittest
 
-# TODO: Implement bidirectional BFS solution
-
 
 def recreate_path(beginWord, endWord, previous_node):
     node = endWord
