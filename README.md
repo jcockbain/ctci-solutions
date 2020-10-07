@@ -183,3 +183,4 @@ pytest {path_to_test.py} # particular file
   - [20_continuous_median](chapter-17/Q20_continuous_median.py)
   - [21_volume_of_histogram](chapter-17/Q21_volume_of_histogram.py)
   - [22_word_transformer](chapter-17/Q22_word_tranformer.py)
+  - [23_max_black_square](chapter-17/Q23_max_block_square.py)
