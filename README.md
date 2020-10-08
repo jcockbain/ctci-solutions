@@ -184,5 +184,5 @@ pytest {path_to_test.py} # particular file
   - [21_volume_of_histogram](chapter-17/Q21_volume_of_histogram.py)
   - [22_word_transformer](chapter-17/Q22_word_tranformer.py)
   - [23_max_black_square](chapter-17/Q23_max_block_square.py)
-  <!-- - [24_max_submatrix](chapter-17/Q24_max_submatrix.py) -->
+  - [24_max_submatrix](chapter-17/Q24_max_submatrix.py)
   - [25_word_rectangle](chapter-17/Q25_word_rectangle.py)
