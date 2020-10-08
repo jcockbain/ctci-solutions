@@ -186,3 +186,4 @@ pytest {path_to_test.py} # particular file
   - [23_max_black_square](chapter-17/Q23_max_block_square.py)
   - [24_max_submatrix](chapter-17/Q24_max_submatrix.py)
   - [25_word_rectangle](chapter-17/Q25_word_rectangle.py)
+  - [26_sparse_similarity](chapter-17/Q26_sparse_similarity.py)
